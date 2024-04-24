@@ -1,0 +1,9 @@
+! ----- names for bodies -----
+$ Solid1_Volumes = 1
+$ Solid2_Volumes = 2
+$ Solid3_Volumes = 3
+! ----- names for boundaries -----
+$ PEC_Faces = 1
+$ ip_Faces = 2
+$ op_Faces = 3
+$ bnry13 = 4

@@ -1,0 +1,24 @@
+Metadata for SaveScalars file: results/port_data.dat
+Elmer version: 9.0
+Elmer revision: Release
+Elmer compilation date: 2024-02-07
+Solver input file: case.sif
+File started at: 2024/04/22 12:50:22
+ 
+Variables in columns of matrix: 
+   1: boundary int mean: electric field re 1 over bc 2
+   2: boundary int mean: electric field re 2 over bc 2
+   3: boundary int mean: electric field re 3 over bc 2
+   4: boundary int mean: electric field im 1 over bc 2
+   5: boundary int mean: electric field im 2 over bc 2
+   6: boundary int mean: electric field im 3 over bc 2
+   7: boundary int mean: electric field re 1 over bc 3
+   8: boundary int mean: electric field re 2 over bc 3
+   9: boundary int mean: electric field re 3 over bc 3
+  10: boundary int mean: electric field im 1 over bc 3
+  11: boundary int mean: electric field im 2 over bc 3
+  12: boundary int mean: electric field im 3 over bc 3
+  13: res: energy functional
+  14: res: energy functional im
+  15: res: integral of div poynting vector
+  16: res: integral of div poynting vector im

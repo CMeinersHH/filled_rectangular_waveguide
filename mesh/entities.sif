@@ -1,0 +1,30 @@
+!------ Skeleton for body section -----
+Body 1
+  Name = Solid1_Volumes
+End
+
+Body 2
+  Name = Solid2_Volumes
+End
+
+Body 3
+  Name = Solid3_Volumes
+End
+
+!------ Skeleton for boundary section -----
+Boundary Condition 1
+  Name = PEC_Faces
+End
+
+Boundary Condition 2
+  Name = ip_Faces
+End
+
+Boundary Condition 3
+  Name = op_Faces
+End
+
+Boundary Condition 4
+  Name = bnry13
+End
+
