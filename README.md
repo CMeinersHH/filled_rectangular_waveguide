@@ -12,11 +12,11 @@ The test case is very similar to the ["Bent waveguide tutorial" (chapter 18)](ht
 ## 2.0 Overview of the geometry and results
 The following picture shows the setup of the geometry. Thereby, the dielectric waveguide section is highlighted. It is not centered in order to avoid a symmetry with respect to the ports. The cross sections of the waveguide correspond to the "Bent waveguide tutorial". Thus it is not a practical, standard waveguide. However, for the purposes of this test case, it is not relevant. The lengths of the different segments are 150 mm, 200 mm, and 250 mm.
 
-![Geometry of the rectangular waveguide setup](images\rw_geometry.png)
+![Geometry of the rectangular waveguide setup](https://github.com/CMeinersHH/filled_rectangular_waveguide/blob/main/images/rw_geometry.png)
 
 In FreeCad, the ["Boolean Fragments"](https://wiki.freecad.org/Part_BooleanFragments) and ["CompoundFilter"](https://wiki.freecad.org/Part_CompoundFilter)-Feature has been used to obtain a compsolid geometry and a resulting mesh which takes into account the inner boundaries between the different materials. The dielectric constant of the inner section is $\varepsilon_r=1.5 \, \text{mm}$. The maximum mesh size is 8 mm.
 
-![Mesh of the arrangement](images\mesh.png) 
+![Mesh of the arrangement](https://github.com/CMeinersHH/filled_rectangular_waveguide/blob/main/images/mesh.png) 
 
 Thereby, it is possible to group faces and solids in so-called ["mesh groups"](https://wiki.freecad.org/FEM_MeshGroup) such that boundary conditions, materials and equations can be easily applied to the mesh later with Elmer.  
 
@@ -25,9 +25,9 @@ If a frequency scan of this arrangement is to be performed, the range that is to
 
 The following two figures show the results obtained. I did not work too much on the mesh and the solver settings, thus practically I did not study the influence of mesh settings on the solution. As a general statement, it can be said that the agreement between the simulation and the analytical method is good. Remaining differences can certainly be clarified in greater depth with more effort. The extraction of the scattering parameters is based on the electric field at the port boundaries and, for S11, also on the energy functional for comparison.    
 
-![Plot of S11 in dB](images\S11.png) 
+![Plot of S11 in dB](https://github.com/CMeinersHH/filled_rectangular_waveguide/blob/main/images/S11.png) 
 
-![Plot of S21 - amplitude](images\S21.png) 
+![Plot of S21 - amplitude](https://github.com/CMeinersHH/filled_rectangular_waveguide/blob/main/images/S21.png) 
 
 ## 3.0 Further discussion on implementation specific aspects
 Most of the workflow can be retraced by the "postprocessing.ipynb"- Jupyter notebook file in the repository. For reference, the FreeCad file is also part of the repository. This chapter includes some additional remarks to the code.  
