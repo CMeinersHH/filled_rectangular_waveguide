@@ -42,7 +42,7 @@ The inport boundary conditions are such that an incoming [wave with amplitude](h
 ### 3.3 The analytic solution
 This rectangular waveguide only has a length-dependent material change (z-direction). This means that each segment can be described within the framework of general transmission line theory. The basic approach is that there is a forward and backwards travelling wave in each part of the medium. The transitions of the materials are determined by individual reflection and transmission coefficients, which resemble in the transition matrix. The propagation in the medium is modeled by the propagation matrix. For this approach, the wave impedances and propagation constants of the different media need to be calculated. The analytic solution is based on harmonic time dependence of kind $\text{Re}\(e^{j\omega t}\)$ whereas the "VectorHelmholtz" module assumes $\text{Re}\(e^{-j\omega t}\)$. This should be taken into account when considering the phases. 
 
-### 3.4 Getting the test case to run
+### 3.4 How to run the test case?
 The repository already contains all files that are necessary for postprocessing the data. However, if you would like to retrace the whole workflow, do it in the following order: 
 
 1. Open the Freecad File, change to the FEM Workbench, click on the "FEMMeshGmsh"-Object in the model tree, select File->Export and save the mesh as "freecad_mesh_gmsh.unv" in your working directory.
